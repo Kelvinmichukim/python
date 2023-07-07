@@ -1,0 +1,8 @@
+n = 300
+m = n
+print(id(n)) # same memory address
+print(id(m)) # same memory address 
+m = 500
+n = 400
+print("Memory address of m:", id(m))  # 1686681059984
+print("Memory address of n:", id(n))  # 1686681059824
